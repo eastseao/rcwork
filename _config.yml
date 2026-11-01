@@ -1,0 +1,41 @@
+title: rcwork
+tagline: 日常 markdown 归档
+description: 把每天产出的 markdown 收进一个库，按日期归档，在线可读。
+url: "https://eastseao.github.io"
+baseurl: "/rcwork"
+lang: zh-CN
+timezone: Asia/Shanghai
+future: true
+
+theme: minima
+markdown: kramdown
+show_excerpts: true
+permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-optional-front-matter
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+minima:
+  date_format: "%Y-%m-%d"
+  skin: classic
+
+header_pages:
+  - archive.md
+  - about.md
+
+exclude:
+  - README.md
+  - .github
+  - _site

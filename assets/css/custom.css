@@ -1,0 +1,75 @@
+/* rcwork 自定义样式：覆盖 minima 默认皮肤 */
+
+body {
+  background: #fbfaf7 !important;
+  color: #1b262c;
+  font-family: -apple-system, "Segoe UI", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", sans-serif;
+  font-size: 16.5px;
+  line-height: 1.85;
+}
+
+.site-header {
+  background: #ffffff !important;
+  border-top: 0 !important;
+  border-bottom: 1px solid #e8e4dc !important;
+  min-height: auto !important;
+}
+
+.site-header .wrapper { padding-top: 14px; padding-bottom: 14px; }
+.site-title, .site-title:visited { color: #1b262c !important; font-weight: 600; letter-spacing: 0.02em; }
+.site-nav .page-link { color: #5b6a72 !important; }
+.site-nav .page-link:hover { color: #21616e !important; }
+
+.site-footer {
+  background: #fbfaf7 !important;
+  border-top: 1px solid #e8e4dc !important;
+  color: #8a959c !important;
+}
+
+.page-content { padding: 36px 0 56px; }
+
+h1, h2, h3, h4 { color: #14202a; letter-spacing: 0.01em; }
+.post-title, .page-heading { font-size: 26px; border-bottom: 0; }
+.post-title { margin-bottom: 6px; }
+
+.post-list-heading {
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #8a959c;
+  border-bottom: 1px solid #e8e4dc;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+
+.post-list > li { padding: 14px 0; border-bottom: 1px dashed #ece7de; }
+.post-list > li:last-child { border-bottom: 0; }
+
+.post-meta {
+  color: #8a959c;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Courier New", monospace;
+}
+
+.post-link { font-size: 17px; font-weight: 600; color: #1b262c !important; }
+.post-link:hover { color: #21616e !important; text-decoration: none; }
+.post-excerpt p { color: #5b6a72; font-size: 14.5px; margin: 4px 0 0; }
+
+.post-content blockquote {
+  border-left: 3px solid #cfe0e2;
+  background: #f4f8f8;
+  color: #46565f;
+  margin: 18px 0;
+  padding: 10px 16px;
+}
+
+.post-content code { background: #f2efe9; border: 1px solid #e6e1d8; border-radius: 3px; }
+.post-content pre { background: #17222a; border: 0; border-radius: 6px; }
+.post-content pre code { background: transparent; border: 0; color: #e8eef0; }
+
+h2 .count, h2 .count { font-size: 12px; color: #8a959c; font-weight: 400; }
+.archive-list { list-style: none; margin: 0 0 26px; padding: 0; }
+.archive-list li { display: flex; gap: 14px; align-items: baseline; padding: 5px 0; border: 0; }
+.archive-list .post-meta { flex: 0 0 42px; }
+.archive-month { color: #21616e; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; }
